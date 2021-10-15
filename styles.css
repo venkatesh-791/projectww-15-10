@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .header {
+    background-color: black;
+    color: #ffffff;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  .hh{
+    display: flex;
+   
+  }
+.logo{
+  width: 150px;
+  display: flex;
+  padding-left: 10px;
+}
+.browse{
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+}
+.how{
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+}
+.sign{
+  text-align: center;
+  width: 75px;
+  height: 35px;
+  background-color: rgb(88, 165, 88);
+  color:white;  
+}
+.second{
+    background-color: green;
+    height: 510px;
+    justify-content: space-around;
+    width: 100%;
+    
+  }
+.commu{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 60px;
+  }  
+   .log{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-evenly;
+      margin-inline: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width: 50%;
+      
+      
+  }
+  .on{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .tick{
+    width: 45px;
+  }
+  .select{
+    color: white;
+  }
+  .tw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec{
+    width: 45px;
+  }
+  .coll{
+    color: white;
+  }
+  .th{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .heart{
+    width: 45px;
+  }
+  .review{
+    color: white;
+  } 
+  .btn{
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    width: 20%;
+    padding-left: 25%;
+ 
+   
+    
+}
+.input{
+    width: 40%;
+    height: 60px;
+    
+    
+}
+.se{
+    background-color: rgb(50, 180, 50);
+    height: 65px;
+    width: 150px;
+    color: white;
+}
+  
+.trend{
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-top: 40px;
+  width: 40%;
+  margin-inline: auto;
+  justify-content: space-evenly;
+  
+}
+.ac, .l, .la{
+  text-decoration: underline;
+
+}
+.third{
+  /* display: grid; */
+  width: 80%;
+  margin-inline: auto;
+  
+}
+.pop{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 45px;
+}
+.from{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 0;
+}
+.imo1{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+.ima1{
+  width: 280px;
+  padding: 8px;
+} 
+.ima2{
+  width: 280px;
+  padding: 8px;
+}  
+.ima3{
+  width: 280px;
+  padding: 8px;
+}  
+.ima4{
+  width: 280px;
+  padding: 8px;
+}   
+.imo2{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.ima6{
+  width: 280px;
+  padding: 8px;
+} 
+.ima7{
+  width: 280px;
+  padding: 8px;
+}  
+.ima8{
+  width: 280px;
+  padding: 8px;
+}  
+.ima9{
+  width: 280px;
+  padding: 8px;
+}
+
+.glob{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 45px;
+}
+.our{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 0;
+}
+.tti{
+  display: flex;
+  flex-direction: row;
+}
+.ide{
+  width: 70%;
+  
+}
+
+.only{
+  width: 50%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+
+  */
+  
+  
+  .footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+
+  
+  @media only screen and (max-width: 768px) {
+ 
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+
+  @media screen and (max-width: 800px){
+    .log{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-evenly;
+      margin-inline: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width: 100%;
+  }
+
+  @media screen and (max-width:800px){
+    .second{
+      background-color: green;
+      height: 700px;
+      justify-content: space-around;
+      width: 100%;
+      background;
+      
+    }
+    .browse, .how{
+      display: none;
+    }
+  }
+
+
+
+
+  @media screen and ( max-width: 640px){
+    .imo1, .imo2{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+    
+    }
+    .ima1{
+      width: 480px;
+      padding: 8px;
+    } 
+    .ima2{
+      width: 480px;
+      padding: 8px;
+    }  
+    .ima3{
+      width: 480px;
+      padding: 8px;
+    }  
+    .ima4{
+      width: 480px;
+      padding: 8px;
+    }   
+    .ima6{
+      width: 480px;
+      padding: 8px;
+    } 
+    .ima7{
+      width: 480px;
+      padding: 8px;
+    }  
+    .ima8{
+      width: 480px;
+      padding: 8px;
+    }  
+    .ima9{
+      width: 480px;
+      padding: 8px;
+    }
+
+
+ @media screen and (max-width: 460px){
+    .btn, .trend{
+      display: none;
+    }
+ }   
+
+ @media screen and (max-width: 800px){
+   .ima1, .ima2{
+     display: flex;
+   }
+  
